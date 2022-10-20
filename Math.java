@@ -12,7 +12,6 @@ public class Math {
      * @return the maximum value of the two inputs
      */
     public int getMax(int one, int two) {
-        if (one >= two) return one;
-        else return two; 
+        return one > two ? one : two;
     }
 }
